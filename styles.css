@@ -265,3 +265,9 @@ span {
   margin-top: 5px;
   color: var(--primary-color-dark);
 }
+@media (max-width: 800px) {
+  #central {
+      flex-direction: column;
+  }  
+
+}
