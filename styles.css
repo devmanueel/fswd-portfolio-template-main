@@ -267,9 +267,55 @@ span {
   color: var(--primary-color-dark);
 }
 @media (max-width: 800px) {
-  #central {
-      flex-direction: column;
-  }  
+  .content {
+    flex-direction: column;
+  }
 
+  .avatar-container {
+    height: auto;
+  }
+
+  .avatar-container img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .introduction {
+    padding: 20px;
+  }
+
+  .navbar {
+    position: relative;
+    background-color: var(--primary-color-dark);
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    position: static;
+    float: none;
+    margin: 16px 0;
+  }
+
+  .text-section {
+    padding: 20px;
+  }
+
+  .title-section {
+    font-size: 30px;
+  }
+
+  .project-link {
+    font-size: 16px;
+  }
+
+  aside {
+    padding: 20px;
+  }
+
+  form {
+    margin: 20px;
+  }
 }
-/*asddasd
